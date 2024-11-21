@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake World</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="dist/script.js" defer></script>
+</head>
+<body>
+    <header>Cupcake World</header>
+    <button class="menu-toggle">Menu</button>
+    <div class="vertical-menu">
+        <a href="index1.html" class="active">Home, but sweet</a>
+        <a href="index2.html">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+        <a href="#" data-theme="style1">Styl 1</a>
+        <a href="#" data-theme="style2">Styl 2</a>
+    </div>
+    <div class="banner">
+        <img src="banner.webp" alt="Cupcake banner">
+    </div>
+    <div class="content">
+        <div class="landing-page-left">
+            <h1>The Sweet Charm of Cupcakes</h1>
+            <p>Cupcakes are a beloved treat for people of all ages, combining sweet flavors with a soft, fluffy texture. These miniature cakes are perfect for any occasion, from birthday parties to casual gatherings. With endless variations in flavors and toppings, cupcakes allow for creative freedom in the kitchen. Whether you're baking classic vanilla cupcakes or experimenting with exotic ingredients, the possibilities are endless.</p>
+
+            <h2>Perfect Portion, Anytime, Anywhere</h2>
+            <p>One of the most appealing aspects of cupcakes is their size. As single-serving desserts, cupcakes offer a perfect portion of sweetness without the guilt of overindulging. Their compact nature also makes them easy to transport, making cupcakes a popular choice for picnics, bake sales, and school events. Cupcakes are portable, shareable, and always a crowd-pleaser.</p>
+
+            <h3>Cupcake Decoration: A Creative Art</h3>
+            <p>Cupcake decoration is an art in itself. From simple swirls of buttercream to intricate designs made with fondant, decorating cupcakes can be as fun as eating them. Many bakers use their cupcakes as a canvas for creativity, adding edible decorations like sprinkles, fresh fruits, or even miniature flowers. With the right tools and techniques, anyone can turn a cupcake into a beautiful masterpiece.</p>
+
+            <h4>Innovative Flavors and Dietary Options</h4>
+            <p>Cupcakes have evolved over the years, with new flavors and styles constantly emerging. Traditional flavors like chocolate and vanilla remain popular, but adventurous bakers are exploring more unique combinations such as lavender and honey or matcha green tea. Vegan and gluten-free options are also widely available, ensuring that everyone can enjoy a cupcake, regardless of dietary restrictions.</p>
+
+            <h5>The Rich History of Cupcakes</h5>
+            <p>In addition to being a delicious dessert, cupcakes have a rich history. The first mention of "cupcakes" dates back to the late 18th century, when they were baked in small cups. Over time, cupcakes have become a symbol of celebration and indulgence. Today, they are enjoyed worldwide and continue to bring joy to those who bake and eat them.</p>
+        </div>
+        <div class="landing-page-right">
+            <img src="cupcake-image.webp" alt="Cupcake image">
+            <figure>
+                <figcaption>Why us?</figcaption>
+                <ul>
+                    <li>Highest quality</li>
+                    <li>Reasonable price</li>
+                    <li>Tens of flavours</li>
+                    <li>25+ Years of traditions</li>
+                    <li>Small, family business</li>
+                </ul>
+            </figure>
+        </div>
+    </div>
+    <footer>
+        &copy;Cupcake World 2024
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.vertical-menu').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
